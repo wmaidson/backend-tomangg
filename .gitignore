@@ -1,0 +1,63 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Maven e Gradle
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
+*.jar
+*.war
+*.ear
+mvnw.cmd
+mvnw
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store            # macOS
+Thumbs.db            # Windows
+desktop.ini          # Windows
+
+# Arquivos relacionados ao ambiente
+.env                 # Arquivo de variáveis de ambiente
+*.key                # Chaves privadas
+*.pem                # Certificados
+*.p12                # Certificados PKCS#12
+*.crt                # Certificados
+
+# Arquivos específicos de debug/teste
+*.class              # Arquivos compilados Java
+*.test               # Arquivos temporários de testes
+*.coverage           # Relatórios de cobertura
+coverage/            # Diretórios de cobertura
+test-output/         # Resultados de testes (TestNG)
+
+# Ignorar arquivos do diretório "target", exceto os necessários
